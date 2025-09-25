@@ -8,7 +8,7 @@ st.image("fatalis.jpg", caption="Fatalis Negro")
 
 st.write("""
 **Informacion del Fatalis Negro** | Créditos: https://monsterhunter.fandom.com/es/wiki/Fatalis
-""", autoplay=True)
+""")
 
 st.audio("fatalisR.mp3")
 
@@ -63,6 +63,7 @@ Puede despiezarse 9 veces: 3 en la parte inferior del cuerpo, 3 en la parte supe
 """)
 
 st.video("https://youtu.be/wH3sw_TslI8")
+
 
 
 
