@@ -10,7 +10,8 @@ st.set_page_config(
 
 # Configuración de Logo
 
-# Barra de navegacion
+# Barra de navegacion, crear las multipaginas
 pg = st.navigation(["intro_y_magnamalo.py", "fatalis.py", "valstrax.py", "malzeno.py", "quien.py"])
+
 
 pg.run()
