@@ -1,9 +1,9 @@
 # Importar streamlit
 import streamlit as st
-
+#titulo de la pagina
 st.title("¿Quien soy?")
 
-
+#linea de escritura
 st.write(
 """
 Solo soy un cazador que forma parte del gremio que desea compartir sus conocimientos sobre las peores bestias.
@@ -18,4 +18,5 @@ https://vm.tiktok.com/ZMAyqJes1/
 """
     )
 
+#linea de imagen
 st.image("MH.jpg")
