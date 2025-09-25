@@ -1,12 +1,13 @@
 # Importar streamlit
 import streamlit as st
 
-# ---------------------  Contenido del sitio   --------------------------#
+#linea de titulo
 st.header("Valstrax Carmesi (La estrella de la desesperacio)", divider=True)
+#linea de imagen
 st.image("ValstraxC.jpg", caption="Valstrax Carmesi")
-
+#linea de audio
 st.audio("valstraxR.mp3")
-
+#linea de escritura
 st.write("**Informacion del Valstrax Carmesi** | Créditos: https://monsterhunter.fandom.com/es/wiki/Valstrax_Carmes%C3%AD")
 
 st.markdown(
@@ -25,11 +26,11 @@ st.markdown(
 4. Etimologia: Valstrax proviene de Valor, Astra (estrella en latín) y Strax (inmediato en sueco). Su nombre en japonés "Valphalk" proviene de Valor y Falcon (halcón en inglés).
 
 """)
-
+#linea de video
 st.video("https://youtu.be/lDbPvOrTSmA?si=mh1ubaw4WaPtTES9")
-
+#linea de subtitulo
 st.header("Informacion para cazadores", divider=True)
-
+#linea de escritura
 col1, col2 = st.columns(2)
 col1.write("Elemento: Dragon")
 col1.write("Estado: Plaga de draco")
@@ -43,7 +44,8 @@ col1.write("Pariente o variacion: Valstrax")
 col1.write("Hostilidad: Maxima")
 col1.write("Partes rompibles:Cabeza, lomo y patas delanteras, cola cercenable")
 col1.write("Recomendacion:evadir y evitar a toda costa, solo para cazadores experimentados")
-
+#linea de imagen
 col2.image("R.jpg", caption="Valstrax")
-
+#linea de video
 col2.video("https://youtu.be/m7wSA1-50DE?si=CUtPoEh-njewQXvi")
+
