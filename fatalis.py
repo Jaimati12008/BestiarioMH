@@ -1,17 +1,17 @@
 # Importar streamlit
 import streamlit as st
 
-# ---------------------  Contenido del sitio   --------------------------#
+#linea de titulo
 st.header("Fatalis Negro", divider=True)
-
+#linea de imagen
 st.image("fatalis.jpg", caption="Fatalis Negro")
-
+#linea de escritura
 st.write("""
 **Informacion del Fatalis Negro** | Créditos: https://monsterhunter.fandom.com/es/wiki/Fatalis
 """)
-
+#linea de audio
 st.audio("fatalisR.mp3")
-
+#linea de escritura
 st.write(
 """
 Fatalis proviene del latín Fatalis, que significa destino. Su nombre en japonés "Miraboreasu" proviene de Mirabilis (milagroso en latín) y Bóreas (dios griego del viento norte).
@@ -61,8 +61,9 @@ Cuando vuela, dispararle con proyectiles puede hacer que caiga.
 Si se le inflige suficiente daño, huirá al pasar 25 minutos de la misión, siendo normalmente la cuarta vez que se encuentra cuando muere.
 Puede despiezarse 9 veces: 3 en la parte inferior del cuerpo, 3 en la parte superior y 3 en la cabeza.
 """)
-
+#linea de video
 st.video("https://youtu.be/wH3sw_TslI8")
+
 
 
 
