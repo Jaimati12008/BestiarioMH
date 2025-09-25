@@ -8,7 +8,7 @@ st.image("malzenoM.jpg", caption="Malzeno")
 
 st.audio("malzenoR.mp3")
 
-st.write("**Informacion del Malzeno** | Créditos: https://monsterhunter.fandom.com/es/wiki/Malzeno", autoplay=True)
+st.write("**Informacion del Malzeno** | Créditos: https://monsterhunter.fandom.com/es/wiki/Malzeno")
 
 st.markdown(
 """
@@ -51,4 +51,5 @@ col1.write("Partes rompibles:Cabeza, lomo y patas delanteras, cola cercenable")
 col1.write("Recomendacion:evadir y evitar a toda costa, solo para cazadores experimentados")
 
 col2.image("malzenoP.jpg", caption="Malzeno Primordial")
+
 col2.video("https://youtu.be/7DbTIIiLjTI?si=7gKdXPST7l32v-33")
