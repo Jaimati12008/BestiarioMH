@@ -32,7 +32,7 @@ st.markdown(
 """)
 #linea de video
 st.video("https://youtu.be/oG4rj2Y-QUY?si=F7R3nOWT_Vs4XyD2")
-#linea de titulo
+#linea de subtitulo
 st.header("Informacion para cazadores", divider=True)
 #linea de escritura
 col1, col2 = st.columns(2)
@@ -52,4 +52,5 @@ col1.write("Recomendacion:evadir y evitar a toda costa, solo para cazadores expe
 col2.image("malzenoP.jpg", caption="Malzeno Primordial")
 #linea de video
 col2.video("https://youtu.be/7DbTIIiLjTI?si=7gKdXPST7l32v-33")
+
 
