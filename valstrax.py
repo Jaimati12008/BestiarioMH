@@ -7,7 +7,7 @@ st.image("ValstraxC.jpg", caption="Valstrax Carmesi")
 
 st.audio("valstraxR.mp3")
 
-st.write("**Informacion del Valstrax Carmesi** | Créditos: https://monsterhunter.fandom.com/es/wiki/Valstrax_Carmes%C3%AD", autoplay=True)
+st.write("**Informacion del Valstrax Carmesi** | Créditos: https://monsterhunter.fandom.com/es/wiki/Valstrax_Carmes%C3%AD")
 
 st.markdown(
 """
@@ -45,4 +45,5 @@ col1.write("Partes rompibles:Cabeza, lomo y patas delanteras, cola cercenable")
 col1.write("Recomendacion:evadir y evitar a toda costa, solo para cazadores experimentados")
 
 col2.image("R.jpg", caption="Valstrax")
+
 col2.video("https://youtu.be/m7wSA1-50DE?si=CUtPoEh-njewQXvi")
